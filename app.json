@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "bossy-blue-celery",
+    "slug": "snack-782538ee-3603-41c2-b863-cefa25f395fd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yashexpo15.snack782538ee360341c2b863cefa25f395fd"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c909e13c-264e-412a-bb03-10b0077d02bc"
+      }
+    }
+  }
+}
