@@ -125,7 +125,8 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         backgroundColor: '#f5f5f5',
-        padding: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+        paddingVertical: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+        paddingHorizontal: 10
     },
     paragraph: {
         marginBottom: 20,
